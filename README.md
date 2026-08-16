@@ -3,12 +3,12 @@ Una útil herramienta para extraer libros de E-Stela
 
 Instrucciones de uso:
 
-- Accede a un recurso de libro de E-Stela.
-- Presiona ctrl (o cmd) + shift + i (o el atajo de tu navegador para inspeccionar elementos).
-- En el inspector, haz clic en "content (index.html)"; luego, dentro de "content", en "lms30.santillanacompartir.com"; a continuación, en "cmscomp-content/COMP-autoexec/UNO_CMS/..."; allí dentro, haz clic en "files" y, finalmente, en "pageEditor.js".
-- Copia todo el contenido de "pageEditor.js".
-- Ve a la carpeta "pageExtractor" y pega el contenido en el archivo "pageEditor.js" (no lo confundas con el del inspector).
-- Ejecuta el script.
+- Accede a un recurso de libro de E-Stela
+- Presiona ctrl (o cmd) + shift + i (o el atajo de tu navegador para inspeccionar elementos)
+- En el inspector, haz clic en "content (index.html)"; luego, dentro de "content", en "lms30.santillanacompartir.com"; a continuación, en "cmscomp-content/COMP-autoexec/UNO_CMS/..."; allí dentro, haz clic en "files" y, finalmente, en "pageEditor.js"
+- Copia todo el contenido de "pageEditor.js"
+- Ve a la carpeta "pageExtractor" y pega el contenido en el archivo "pageEditor.js" (no lo confundas con el del inspector)
+- Ejecuta el script
 
 ¡Listo!
 
