@@ -1,29 +1,33 @@
 # Extractor de libros de E-Stela
 Una útil herramienta para extraer libros de E-Stela
 
-Instrucciones de uso:
+Cómo configurarlo:
 
-- Accede a un recurso de libro de E-Stela
-- Presiona ctrl (o cmd) + shift + i (o el atajo de tu navegador para inspeccionar elementos)
-- En el inspector, haz clic en "content (index.html)"; luego, dentro de "content", en "lms30.santillanacompartir.com"; a continuación, en "cmscomp-content/COMP-autoexec/UNO_CMS/..."; allí dentro, haz clic en "files" y, finalmente, en "pageEditor.js"
-- Copia todo el contenido de "pageEditor.js"
-- Ve a la carpeta "pageExtractor" y pega el contenido en el archivo "pageEditor.js" (no lo confundas con el del inspector)
-- Descarga las dependencias Python (requests y pillow) usando el comando siguiente en la consola: ``pip install requests pillow``
-- Ejecuta el script
+- Presiona Ctrl + Shift + O (Windows) o Cmd + Option + B (Mac) para abrir el administrador de marcadores de tu navegador.
+- Haz clic en "Añadir nuevo marcador" (o haz clic derecho en la barra de marcadores y selecciona "Añadir página...").
+- (Opcional, pero recomendado) Establece el nombre como: "Download Flipbook PDF"
+- Establece la URL / Ubicación con el contenido de "bookmarklet.js"
+
+Cómo usarlo:
+
+- Accede a un recurso de libro de E-Stela.
+- Haz clic en el bookmarklet que acabas de crear.
 
 ¡Listo!
 
 # E-Stela book extractor
 A useful tool to extract books from E-Stela
 
+How to set up:
+
+- Press Ctrl + Shift + O (Windows) or Cmd + Option + B (Mac) to open your browser's Bookmarks Manager.
+- Click Add new bookmark (or right-click your bookmarks bar and select Add page...).
+- (Optional but Recommended) Set the Name to: "Download Flipbook PDF"
+- Set the URL / Location to the contents of "bookmarklet.js"
+
 How to use:
 
-- Go inside an E-Stela book asset
-- Press ctrl (or cmd)+shift+i or whatever your browser's inspect element shortcut is
-- Inside inspect, click on "content (index.html)", then inside "content", on "lms30.santillanacompartir.com", now on "cmscomp-content/COMP-autoexec/UNO_CMS/...", inside there, click on "files", and finally click on "pageEditor.js".
-- Copy all of pageEditor.js's contents
-- Head into the pageExtractor folder and paste the contents into pageEditor.js (do not confuse with the one in Inspect)
-- Download the Python dependencies (requests and pillow) using the following command in the console: ``pip install requests pillow``
-- Run the script
+- Enter an E-Stela book asset
+- Click on the bookmarklet you just created
 
 Done!
